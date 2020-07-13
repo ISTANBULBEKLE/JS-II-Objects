@@ -20,11 +20,13 @@ DO NOT EDIT ANYTHING ABOVE THIS LINE
 WRITE YOUR CODE BELOW
 */
 
-
+function personYoungerThan28 (person){
+  return person.age < 28;
+}
 
 let persons = [person1, person2, person3]; // Complete here
-let personNames = persons.name; // Complete here
-let personsYoungerThan28YearsOld = // Complete here
+let personNames = persons.map(person => person.name); // Complete here
+let personsYoungerThan28YearsOld = persons.filter(personYoungerThan28); // Complete here
 
 
 /*
@@ -48,7 +50,7 @@ Each destination has a name, a distance from Glasgow, and a list of transportati
 3) Print in the console all the destination names more than 300 kms far away and reachable by train.
 */
 
-let destination1 = {
+l/* et destination1 = {
     destinationName: "Edinburgh",
     distanceKms: 80,
     transportations: ["car", "bus", "train"]
@@ -68,7 +70,7 @@ let destination4 = {
     distanceKms: 350,
     transportations: ["plane", "ferry"]
 };
-let travelDestinations = [destination1, destination2, destination3, destination4];
+let travelDestinations = [destination1, destination2, destination3, destination4]; */
 
 
 /*
@@ -76,20 +78,20 @@ DO NOT EDIT ANYTHING ABOVE THIS LINE
 WRITE YOUR CODE BELOW
 */
 
-
+/* 
 let destinationNamesWithin500Kms = // Complete here
 let destinationNameReachableByFerry = // Complete here
 let destinationNamesMoreThan300KmsAwayByTrain = // Complete here (PRINT THE RESULT IN THE CONSOLE USING FOREACH)
 
-
+ */
 /*
 DO NOT EDIT ANYTHING BELOW THIS LINE
 */
-
+/* 
 console.log(`Question 1) Expected result: Edinburgh,Dublin, actual result: ${destinationNamesWithin500Kms}`);
 console.log(`Question 2) Expected result: Dublin, actual result: ${destinationNameReachableByFerry}`);
 console.log(`Question 3) Expected result: London,Paris, actual result:  ${destinationNamesMoreThan300KmsAwayByTrain}`);
-
+ */
 /////////////////////////////////////////////////////////////////////////////////////////////
 
 
